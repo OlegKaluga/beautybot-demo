@@ -1,5 +1,5 @@
 # handlers/admin.py
-from aiogram import Router, F, types
+from aiogram import Router, F, types, Bot
 from aiogram.exceptions import TelegramForbiddenError, TelegramBadRequest
 from aiogram.filters import Command, StateFilter
 from aiogram.fsm.context import FSMContext
